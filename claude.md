@@ -70,7 +70,7 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 
 ## 5. Use the Right Tool
 
-**Prefer purpose-built CLIs over generic HTTP calls.**
+**Prefer purpose-built CLIs over general-purpose tools.**
 
 - GitHub (repo query, file content, PR, Issue, Release, clone, etc.) → use `gh` CLI, never curl or WebFetch
 - JSON processing (query, filter, transform) → use `jq`
